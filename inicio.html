@@ -261,7 +261,7 @@
         <div class="row justify-content-center"> 
        <div class="col-12 col-md-6 mt-3 mt-md-0 ml-md-0 justify-content-center mesaregalos">
         <h5 class='dondeyCuando col-12 col-lg-12 mb-4 mt-4 mr-2 text-center ' style="color:#CAAC92">Sugerencia de regalos</h5> 
-        <h2 class="textodondeycuando col-12 col-lg-12 mt-1 mb-3 text-center text-white" >Para nosotros, lo más importante es contar con tu presencia en este día tan importante, pero si así lo deseas, te dejamos algunas sugerencias de regalos a continuación.</h2>
+        <h2 class="textodondeycuando col-12 col-lg-12 mt-1 mb-3 text-center text-white" >Para nosotros, lo más importante es contar con tu presencia en este día tan especial, pero si así lo deseas, te dejamos algunas sugerencias de regalos a continuación.</h2>
             <p id="amazonliverpool" style="font-size: 50px; color:#CAAC92;" class="text-center mt-3"><i class="fas fa-gifts"></i></p>
         <h5 id="amazonliverpool" class='col-12 col-lg-12 mt-2 text-center' style="color:#fff;  font-family: 'Arapey', serif;">REGALO PRESENCIAL</h5> 
         
@@ -320,42 +320,44 @@
          <div class="row justify-content-center" style="margin:0 auto;">
         <h2 class="respetuosamente col-12 col-md-6 mt-4 text-center" style="font-size: 15px; color:#000;  font-family: 'Lora', serif;">Nos gustaría pudieras asistir y compartir con nosotros este día tan especial. Te pedimos nos pudieras confirmar tu asistencia antes del <b>01 DE JUNIO DE 2024.</b></h2>
     </div>
-    <form class="form-register mt-4 col-md-8" name="submit-form" id="form-register">
-        <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#CAAC92;  font-family: 'Lora', serif;"><b>Nombre completo del invitado</b></h2>
+   <form class="form-register mt-4 col-md-6" name="submit-form" id="form-register">
+        <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#CAAC92;  font-family: 'Lora', serif">Nombre completo del invitado/familia</h2>
         <input class="controls" type="text" name="Nombres" id="nombres" placeholder="" required>
-        <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#CAAC92;  font-family: 'Lora', serif;"><b>Teléfono</b></h2>
+        <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#CAAC92;  font-family: 'Lora', serif">Teléfono</h2>
         <input class="controls" type="number" name="Telefono" id="telefono" placeholder="" required>
-        <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#CAAC92;  font-family: 'Lora', serif;"><b>¿Podrás asistir? Selecciona una opción</b></h2>
-
-        <select name="¿Asistirá?" id="asistira" class="custom-select2 col-12" style="color: black; font-size: 20px; height: 45px;" onchange="habilitar(this.value);">
+        <h2 class="formulario col-12 col-lg-12 mt-2 text-left" style="color:#CAAC92;  font-family: 'Lora', serif">¿Podrás asistir? Selecciona una opción</h2>
+  
+        <select name="¿Asistirá?" id="asistira" class="custom-select2 col-12" style="color: #000; font-size: 20px; height: 45px;" onchange="habilitar(this.value);">
                 <option id="Sí" value="Sí">Sí asistiré.</option>
                 <option id="No" value="No">No asistiré.</option>
         </select>
-        <input type="hidden" name="Contador" value="1">
-            <h2 class="formulario col-12 col-lg-12 mt-4 text-left" style="color:#CAAC92;  font-family: 'Lora', serif;"><b>De los boletos asignados ¿Cuántos vas a utilizar?</b></h2>
-            <select name="Boletos a utilizar" class="custom-select2 col-12" id="boletos" style="color: black; font-size: 20px; height: 45px;">
+        <input type="hidden"  name="Contador" value="1">
+        <h2 class="formulario col-12 col-lg-12 mt-4 text-left" style="color:#CAAC92;  font-family: 'Lora', serif">De los boletos asignados ¿Cuántos vas a utilizar?</h2>
+        <select name="Boletos a utilizar" class="custom-select2 col-12" id="boletos" style="color: #000; font-size: 20px; height: 45px;">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
                 <option value="5">5</option>
                 <option value="6">6</option>
-            </select>
-        <h2 class="formulario col-12 col-lg-12 mt-4 text-left" style="color:#CAAC92;  font-family: 'Lora', serif;"><b>Mensaje para la quinceañera</b></h2>
-        <textarea class="controls" type="text"  style="widht: 100%; height: 100px" name="Mensaje" id="mensaje" placeholder="" required></textarea>
+        </select>
     
+        <h2 class="formulario col-12 col-lg-12 mt-4 text-left"  style="color:#CAAC92;  font-family: 'Lora', serif">Mensaje para la quinceañera</h2>
+        <textarea class="controls" type="text"  style="widht: 100%; height: 100px" name="Mensaje" id="mensaje" placeholder="" required></textarea>
+
         <div class="row justify-content-center">
-            <button type="submit" class="btn btn-dark col-8 mb-5 mt-3 text-center" id="botonForm" onclick="bloquear();"><i class="fas fa-envelope" ></i> Enviar</button> 
+            <button type="submit" class="btn btn-dark col-8 mb-5 mt-3 text-center" id="botonForm" onclick="bloquear();"><i class="fas fa-envelope mr-2"></i> Enviar</button> 
         </div>
         <div class="row justify-content-center">
-        <div id="loading" class="spinner-border ml-2" role="status" style="display: none; margin-top: -40px;">
+        <div id="loading" class="spinner-border ml-2" role="status" style="display: none; margin-top: -40px; color:#6F7163">
                 <span class="sr-only">Loading...</span>
-        </div>
-       </div> 
+        </div></div>
+        
+       
        
     </form> 
     <div class="row justify-content-center" id="respuestaEnviada">
-        <h2 class=" col-12 col-lg-12 mt-5 text-center" style="font-size: 22px; color:#868787;  font-family: 'Lora', serif;"><i class="fa fa-check mr-2"></i>Respuesta enviada</b></h2>
+        <h2 class=" col-12 col-lg-12 mt-5 text-center" style="font-size: 22px; color:#014741;  font-family: 'Playfair Display', serif;"><i class="fa fa-check mr-2"></i>Tu respuesta ha sido enviada.</b></h2>
        </div>
     <!--<h2 class="respetuosamente col-12 col-lg-12 mt-5 mb-5 text-center" style="font-size: 15px; color:#000;  font-family: 'Lora', serif;">Recuerda que para accesar al evento deberás mostrar tu invitación e identificación oficial.</b></h2>-->
     <hr>
@@ -506,7 +508,7 @@
   <script src="js/script.js"></script>
   <script>
 
- function bloquear(){
+     function bloquear(){
          nombre = document.getElementById("nombres").value;
          apellidos = document.getElementById("telefono").value;
          mensaje = document.getElementById("mensaje").value;
@@ -517,7 +519,7 @@
              document.getElementById("loading").style.display = "block";
      document.getElementById("botonForm").style.opacity = 0.7;
      document.getElementById("botonForm").textContent = 'Enviando espere por favor...';
-          document.getElementById("botonForm").style.zIndex=-100;
+          document.getElementById("botonForm").style.zinicio=-100;
          
       setTimeout(function () {
         document.getElementById("loading").style.display = "none";
@@ -532,7 +534,7 @@
  
     document.getElementById("respuestaEnviada").style.display = "none";
          let comprobar = "1";
-        let scriptURL = 'https://script.google.com/macros/s/AKfycbzrv50X2VPBwqzKJfiVaDCBZ5lhD7z7EoKIp3H9w2stbTVH5dSI5VanIRTFS305mg4Hxg/exec';
+        let scriptURL = 'https://script.google.com/macros/s/AKfycbxyh0sLBDkFcSq2Z9kBJlWsy59gIHR9FCGpIsgpMstmeYtMRiEkKnlRAAfKZ4HRPl0I/exec';
         let form = document.forms['submit-form'];
  
         form.addEventListener('submit', e => {
@@ -562,7 +564,9 @@
         myButton.textContent = 'Enviado';
         myButton.style.opacity = 0;
         myButton.disabled = true;
-    }, 3500);            
+    }, 3500);
+                    
+                      
 document.getElementById("boletos").disabled=true;
                       document.getElementById("nombres").disabled=true;
                        document.getElementById("telefono").disabled=true;
@@ -595,8 +599,7 @@ function habilitar(value)
             });
             }
         }
-
-        (function () {
+  (function () {
   "use strict";
 
   // define variables
@@ -629,6 +632,7 @@ function habilitar(value)
   window.addEventListener("scroll", callbackFunc);
 })();
 
+    
     </script>
 
 </body>
