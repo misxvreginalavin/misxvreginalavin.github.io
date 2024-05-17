@@ -665,8 +665,8 @@ function DeLaParraZamudio3() {
 function DiazLanderos() {
     window.open("pases/DiazLanderos.html", "_self");        
 }
-function RosarioCalcaneoDeLeon () {
-    window.open("pases/RosarioCalcaneoDeLeon .html", "_self");        
+function RosarioCalcaneoDeLeon() {
+    window.open("pases/RosarioCalcaneoDeLeon.html", "_self");        
 }
 
 
