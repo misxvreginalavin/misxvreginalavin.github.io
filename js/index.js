@@ -633,8 +633,8 @@ function SanchezZamudio() {
 function ErnestoLavinZamudio() {
     window.open("pases/ErnestoLavinZamudio.html", "_self");        
 }
-function RamirezCorral() {
-    window.open("pases/RamirezCorral.html", "_self");        
+function DiazZamudio() {
+    window.open("pases/DiazZamudio.html", "_self");        
 }
 function MelendezZamudio() {
     window.open("pases/MelendezZamudio.html", "_self");        
@@ -662,8 +662,8 @@ function CampaVillarreal() {
 function DeLaParraZamudio3() {
     window.open("pases/DeLaParraZamudio3.html", "_self");        
 }
-function AlejandroMarquez() {
-    window.open("pases/AlejandroMarquez.html", "_self");        
+function DiazLanderos() {
+    window.open("pases/DiazLanderos.html", "_self");        
 }
 function RosarioCalcaneoDeLeon () {
     window.open("pases/RosarioCalcaneoDeLeon .html", "_self");        
@@ -1365,7 +1365,7 @@ function copiarArrietaGandara(){
   destino.focus();
   document.execCommand('paste');
 }
- function copiarRamirezCorral(){
+ function copiarDiazZamudio(){
   var origen = document.getElementById('target50');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
@@ -1493,7 +1493,7 @@ function copiarRodriguezZamudio(){
   destino.focus();
   document.execCommand('paste');
 }
- function copiarAlejandroMarquez(){
+ function copiarDiazLanderos(){
   var origen = document.getElementById('target59');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
