@@ -669,6 +669,10 @@ function RosarioCalcaneoDeLeon() {
     window.open("pases/RosarioCalcaneoDeLeon.html", "_self");        
 }
 
+function sinNombre() {
+    window.open("inicio.html", "_self");        
+}
+
 
 
 
@@ -1510,6 +1514,21 @@ function copiarRodriguezZamudio(){
 
 function copiarRosarioCalcaneoDeLeon(){
   var origen = document.getElementById('target60');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+
+function copiarsinNombre(){
+  var origen = document.getElementById('target61');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
