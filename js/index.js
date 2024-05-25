@@ -669,6 +669,16 @@ function RosarioCalcaneoDeLeon() {
     window.open("pases/RosarioCalcaneoDeLeon.html", "_self");        
 }
 
+function ArrietaRodriguez() {
+    window.open("pases/ArrietaRodriguez.html", "_self");        
+}
+function MariaNeliBrecedaPulgarin() {
+    window.open("pases/MariaNeliBrecedaPulgarin.html", "_self");        
+}
+function VargasTapia() {
+    window.open("pases/VargasTapia.html", "_self");        
+}
+
 function sinNombre() {
     window.open("inicio.html", "_self");        
 }
@@ -1514,6 +1524,49 @@ function copiarRodriguezZamudio(){
 
 function copiarRosarioCalcaneoDeLeon(){
   var origen = document.getElementById('target60');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+
+function copiarArrietaRodriguez(){
+  var origen = document.getElementById('target62');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiarMariaNeliBrecedaPulgarin(){
+  var origen = document.getElementById('target63');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+function copiarVargasTapia(){
+  var origen = document.getElementById('target64');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
